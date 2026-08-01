@@ -1,23 +1,26 @@
 {
   "name": "xingchen-editor-copilot",
-  "version": "0.1.0",
-  "description": "星辰商业宣传片剪辑辅助试验插件",
+  "version": "1.0.0",
+  "description": "星辰商业宣传片智能素材筛选插件",
   "author": {
-    "name": "星辰"
+    "name": "星辰",
+    "url": "https://github.com/ryoujueki-lingshouyi"
   },
-  "keywords": ["video-editing", "commercial-promo", "editor-copilot"],
+  "homepage": "https://github.com/ryoujueki-lingshouyi/xingchen-codex-plugins",
+  "repository": "https://github.com/ryoujueki-lingshouyi/xingchen-codex-plugins",
+  "keywords": ["video-editing", "commercial-promo", "media-screening", "editor-copilot"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "星辰剪辑助手",
-    "shortDescription": "为商业宣传片剪辑师减少项目准备、素材整理和交付检查工作",
-    "longDescription": "星辰剪辑助手 V0.1 用于单人试验，先标准化项目初始化、素材盘点、工作建议和交付质检，不替代剪辑师的创意决策。",
+    "displayName": "星辰智能素材助手",
+    "shortDescription": "为商业宣传片完成素材校验、理解、搜索和候选镜头筛选",
+    "longDescription": "星辰智能素材助手 V1.0 用于首轮真实项目测试，通过对话创建项目和补充需求，安全导入并校验原始素材，建立镜头索引后按人物、场景、动作、讲话内容和技术质量筛选候选镜头。它不进入剪辑、不修改原始素材，剪辑师保留最终选片权。",
     "developerName": "星辰",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
     "defaultPrompt": [
-      "为我新建一个星辰商业片剪辑项目。",
-      "盘点当前项目素材，告诉我最省时的下一步。",
-      "根据星辰标准检查待交付的商业宣传片。"
+      "创建一个星辰商业片素材筛选项目。",
+      "检查当前项目是否具备素材筛选条件。",
+      "根据项目需求开始筛选原始素材。"
     ]
   }
 }
