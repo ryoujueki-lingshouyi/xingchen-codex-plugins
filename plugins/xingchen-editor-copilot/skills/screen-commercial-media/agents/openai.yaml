@@ -1,0 +1,4 @@
+interface:
+  display_name: "星辰智能素材助手"
+  short_description: "为商业宣传片建立可搜索、可追溯、可复核的智能素材筛选结果"
+  default_prompt: "使用 $screen-commercial-media 检查当前项目并开始筛选商业片素材。"

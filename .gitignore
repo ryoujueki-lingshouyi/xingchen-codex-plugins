@@ -1,5 +1,7 @@
 # Research artifacts that do not belong to the plugin repository
 analysis_openmontage/
+/output/
+/tmp/
 
 # Raw media, audio, and editing project files
 *.mp4
@@ -15,12 +17,9 @@ analysis_openmontage/
 *.drp
 *.dra
 
-# Generated editing outputs
-**/04_Proxies/
-**/05_AIReports/
-**/06_ReviewExports/
-**/07_Deliverables/
-**/99_Cache/
+# Generated Xingchen project data
+**/.xingchen/
+**/02_素材筛选结果/
 
 # Secrets and local credentials
 .env
