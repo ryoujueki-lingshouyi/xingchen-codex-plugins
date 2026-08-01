@@ -1,4 +1,0 @@
-interface:
-  display_name: "星辰商业片剪辑助手"
-  short_description: "为商业宣传片完成项目初始化、素材盘点、工作建议与交付前质检准备"
-  default_prompt: "使用 $assist-commercial-editing 分析当前商业片项目，先给出素材盘点和最省时的下一步。"
