@@ -1,0 +1,23 @@
+{
+  "name": "xingchen-editor-copilot",
+  "version": "0.1.0",
+  "description": "星辰商业宣传片剪辑辅助试验插件",
+  "author": {
+    "name": "星辰"
+  },
+  "keywords": ["video-editing", "commercial-promo", "editor-copilot"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "星辰剪辑助手",
+    "shortDescription": "为商业宣传片剪辑师减少项目准备、素材整理和交付检查工作",
+    "longDescription": "星辰剪辑助手 V0.1 用于单人试验，先标准化项目初始化、素材盘点、工作建议和交付质检，不替代剪辑师的创意决策。",
+    "developerName": "星辰",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "为我新建一个星辰商业片剪辑项目。",
+      "盘点当前项目素材，告诉我最省时的下一步。",
+      "根据星辰标准检查待交付的商业宣传片。"
+    ]
+  }
+}

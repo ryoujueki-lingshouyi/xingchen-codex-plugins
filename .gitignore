@@ -1,0 +1,42 @@
+# Research artifacts that do not belong to the plugin repository
+analysis_openmontage/
+
+# Raw media, audio, and editing project files
+*.mp4
+*.mov
+*.mxf
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.aif
+*.aiff
+*.prproj
+*.drp
+*.dra
+
+# Generated editing outputs
+**/04_Proxies/
+**/05_AIReports/
+**/06_ReviewExports/
+**/07_Deliverables/
+**/99_Cache/
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependency and tool caches
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

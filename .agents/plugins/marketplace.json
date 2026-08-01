@@ -1,0 +1,20 @@
+{
+  "name": "xingchen-internal",
+  "interface": {
+    "displayName": "星辰内部插件"
+  },
+  "plugins": [
+    {
+      "name": "xingchen-editor-copilot",
+      "source": {
+        "source": "local",
+        "path": "./plugins/xingchen-editor-copilot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
